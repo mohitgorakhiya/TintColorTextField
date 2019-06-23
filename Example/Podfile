@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TintColorTextField_Example' do
+  pod 'TintColorTextField', :path => '../'
+
+  target 'TintColorTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
