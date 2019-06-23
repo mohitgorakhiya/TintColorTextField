@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6124B0CC6C159DC478B13E16B24478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1AC4AC448388CBA666D9F26379EA67EE /* TintColorTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0910C148CB54BB52E6C5BC5B76471 /* TintColorTextField-dummy.m */; };
+		2E0C9E81141533DA570097C00C93B6AA /* TintColorTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA4A896DD4D4FECBD981F0B2E654DA6 /* TintColorTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F9A74E2BB8A887F965EB7A3165CAF33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		88B11639B2B5107189E1C4125654D60D /* Pods-TintColorTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2A0D900536ECB90E06B3FE127B617 /* Pods-TintColorTextField_Tests-dummy.m */; };
+		B891E1953026C7E7F1C1BF0F2E83AFBA /* Pods-TintColorTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F38F8EB080E1ECA14C9FBB47BCAC5C8F /* Pods-TintColorTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F99BD828CD9868353FA69F9B5D6686 /* Pods-TintColorTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD4C12AEE96D39DE294D3213808CE51 /* Pods-TintColorTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A08A5C003D201F22E82EBA67030E9C /* Pods-TintColorTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9527D8ADFD8A715209D88E0ADD16AD0 /* Pods-TintColorTextField_Example-dummy.m */; };
+		CD87F7A34411DC2140769E1113D5828D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D61CBD1BFBE3AD09DFF6A41CDCC29C04 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8D7C6E7D21AC4A2283FF2444E0FA35 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2690C0C55E8F58B1BBB5AB2DBC70BD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A8E96DA0EB4E01E9DAE34C53B44128F;
+			remoteInfo = "Pods-TintColorTextField_Example";
+		};
+		A226E4C4D9B79A59BD2630E596F9A777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221B9DDD3B18829A2655FD5188EEAFE6;
+			remoteInfo = TintColorTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8D7C6E7D21AC4A2283FF2444E0FA35 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TintColorTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		119071864C3F99AAAD2D1F2568B9F2F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		14533DD084CD40AB9518D41F099274DE /* TintColorTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TintColorTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1AF2A0D900536ECB90E06B3FE127B617 /* Pods-TintColorTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintColorTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		24A1D85483FE4B46B7DBF7028111FD62 /* Pods-TintColorTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TintColorTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C867C7626D486EEC4B28EC6D7E04588 /* Pods-TintColorTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TintColorTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		2DA4A896DD4D4FECBD981F0B2E654DA6 /* TintColorTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TintColorTextField-umbrella.h"; sourceTree = "<group>"; };
+		2DD4C12AEE96D39DE294D3213808CE51 /* Pods-TintColorTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintColorTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38EDF31CB11BC4EB1B360FF74AA2E913 /* Pods-TintColorTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		42DE11E17DAADF9AA5D8FF556DDB02FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		47804592EA214967A8BE3DC60572B8FF /* TintColorTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TintColorTextField.framework; path = TintColorTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE9FAD9F1F9EF389A15EFC2C48110DF /* Pods-TintColorTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Example-Info.plist"; sourceTree = "<group>"; };
+		4EA0910C148CB54BB52E6C5BC5B76471 /* TintColorTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TintColorTextField-dummy.m"; sourceTree = "<group>"; };
+		554BCE0C87B9F02F1CBA64F150D7A006 /* Pods-TintColorTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Tests-Info.plist"; sourceTree = "<group>"; };
+		5BB185C9BEC2F0CC890E6C0E07529C9C /* TintColorTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TintColorTextField-Info.plist"; sourceTree = "<group>"; };
+		5C44A9B1DB512546FA4007DDB1FE43BE /* Pods-TintColorTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TintColorTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B71AEC0254D7C7D83BBFD6CDDC4C010 /* Pods-TintColorTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		83FB17C78EEEBA042A3F874202454314 /* Pods-TintColorTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8400B0E87E42F3D203CEB4B90A832405 /* Pods-TintColorTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8449E8EAEC52AB6B84C411D4964BFF69 /* Pods-TintColorTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TintColorTextField.xcconfig; sourceTree = "<group>"; };
+		C2C841B8BA3BF6394D7C8EA57E3181B3 /* Pods_TintColorTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TintColorTextField_Tests.framework; path = "Pods-TintColorTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F52F9E6A98AA80A337E891754B49FD /* Pods-TintColorTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7E4B39C050648B3BD6DE6DC5E41AAF0 /* Pods-TintColorTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TintColorTextField_Example.modulemap"; sourceTree = "<group>"; };
+		D082F53D6B3983E15FD565A415E67393 /* TintColorTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TintColorTextField-prefix.pch"; sourceTree = "<group>"; };
+		D56808C934637FBF7453B798C247012C /* TintColorTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TintColorTextField.modulemap; sourceTree = "<group>"; };
+		E9527D8ADFD8A715209D88E0ADD16AD0 /* Pods-TintColorTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintColorTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		EAD0FC7CB4226BCC09C3A113E670DDDD /* Pods-TintColorTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintColorTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F38F8EB080E1ECA14C9FBB47BCAC5C8F /* Pods-TintColorTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintColorTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F9B4502A04935048A516E15173FB73C0 /* Pods_TintColorTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TintColorTextField_Example.framework; path = "Pods-TintColorTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018EFE0EC3C65F37A240DF6490001C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6124B0CC6C159DC478B13E16B24478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC77533FE3B0F468E979EB0CA99440 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9A74E2BB8A887F965EB7A3165CAF33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		695620D80AE5360D724BE4835F57908E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD87F7A34411DC2140769E1113D5828D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7E207F032538C2B2131C5C83B62029 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D56808C934637FBF7453B798C247012C /* TintColorTextField.modulemap */,
+				B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */,
+				4EA0910C148CB54BB52E6C5BC5B76471 /* TintColorTextField-dummy.m */,
+				5BB185C9BEC2F0CC890E6C0E07529C9C /* TintColorTextField-Info.plist */,
+				D082F53D6B3983E15FD565A415E67393 /* TintColorTextField-prefix.pch */,
+				2DA4A896DD4D4FECBD981F0B2E654DA6 /* TintColorTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TintColorTextField";
+			sourceTree = "<group>";
+		};
+		1FA4F02C93267A4269FD44200F720C3A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB322068A6DD81B2528F2F567D74AECD /* Pods-TintColorTextField_Example */,
+				55E8A7A42C51A59378F7DE66511111EC /* Pods-TintColorTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		345C3E1DE83CB40A488DBD77CDA98420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9B4502A04935048A516E15173FB73C0 /* Pods_TintColorTextField_Example.framework */,
+				C2C841B8BA3BF6394D7C8EA57E3181B3 /* Pods_TintColorTextField_Tests.framework */,
+				47804592EA214967A8BE3DC60572B8FF /* TintColorTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E8A7A42C51A59378F7DE66511111EC /* Pods-TintColorTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C867C7626D486EEC4B28EC6D7E04588 /* Pods-TintColorTextField_Tests.modulemap */,
+				5C44A9B1DB512546FA4007DDB1FE43BE /* Pods-TintColorTextField_Tests-acknowledgements.markdown */,
+				8449E8EAEC52AB6B84C411D4964BFF69 /* Pods-TintColorTextField_Tests-acknowledgements.plist */,
+				1AF2A0D900536ECB90E06B3FE127B617 /* Pods-TintColorTextField_Tests-dummy.m */,
+				554BCE0C87B9F02F1CBA64F150D7A006 /* Pods-TintColorTextField_Tests-Info.plist */,
+				F38F8EB080E1ECA14C9FBB47BCAC5C8F /* Pods-TintColorTextField_Tests-umbrella.h */,
+				6B71AEC0254D7C7D83BBFD6CDDC4C010 /* Pods-TintColorTextField_Tests.debug.xcconfig */,
+				C3F52F9E6A98AA80A337E891754B49FD /* Pods-TintColorTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-TintColorTextField_Tests";
+			path = "Target Support Files/Pods-TintColorTextField_Tests";
+			sourceTree = "<group>";
+		};
+		858C1B184EA9C4934F1DA71D7560F379 /* TintColorTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0D8D7C6E7D21AC4A2283FF2444E0FA35 /* ReplaceMe.swift */,
+				AED947573D1619E3E798247E8A2D4699 /* Pod */,
+				1C7E207F032538C2B2131C5C83B62029 /* Support Files */,
+			);
+			name = TintColorTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		89396F9D3611C134218796673438233F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				858C1B184EA9C4934F1DA71D7560F379 /* TintColorTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AED947573D1619E3E798247E8A2D4699 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				42DE11E17DAADF9AA5D8FF556DDB02FD /* LICENSE */,
+				119071864C3F99AAAD2D1F2568B9F2F8 /* README.md */,
+				14533DD084CD40AB9518D41F099274DE /* TintColorTextField.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB322068A6DD81B2528F2F567D74AECD /* Pods-TintColorTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C7E4B39C050648B3BD6DE6DC5E41AAF0 /* Pods-TintColorTextField_Example.modulemap */,
+				24A1D85483FE4B46B7DBF7028111FD62 /* Pods-TintColorTextField_Example-acknowledgements.markdown */,
+				8400B0E87E42F3D203CEB4B90A832405 /* Pods-TintColorTextField_Example-acknowledgements.plist */,
+				E9527D8ADFD8A715209D88E0ADD16AD0 /* Pods-TintColorTextField_Example-dummy.m */,
+				EAD0FC7CB4226BCC09C3A113E670DDDD /* Pods-TintColorTextField_Example-frameworks.sh */,
+				4BE9FAD9F1F9EF389A15EFC2C48110DF /* Pods-TintColorTextField_Example-Info.plist */,
+				2DD4C12AEE96D39DE294D3213808CE51 /* Pods-TintColorTextField_Example-umbrella.h */,
+				38EDF31CB11BC4EB1B360FF74AA2E913 /* Pods-TintColorTextField_Example.debug.xcconfig */,
+				83FB17C78EEEBA042A3F874202454314 /* Pods-TintColorTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-TintColorTextField_Example";
+			path = "Target Support Files/Pods-TintColorTextField_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				89396F9D3611C134218796673438233F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				345C3E1DE83CB40A488DBD77CDA98420 /* Products */,
+				1FA4F02C93267A4269FD44200F720C3A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3984318531146FEC7449AECC644D923E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B891E1953026C7E7F1C1BF0F2E83AFBA /* Pods-TintColorTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		464BD701462F3F9FEA88A8C977F1734D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F99BD828CD9868353FA69F9B5D6686 /* Pods-TintColorTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CABB72DA0A558A1CDEDDDCE8F70FDBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0C9E81141533DA570097C00C93B6AA /* TintColorTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1745127A5AFAF34F311ED7C4CEDF4191 /* Pods-TintColorTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC302FBD5BD70D0AFF7ED57E3E455564 /* Build configuration list for PBXNativeTarget "Pods-TintColorTextField_Tests" */;
+			buildPhases = (
+				3984318531146FEC7449AECC644D923E /* Headers */,
+				6566A0C279EF30D97EFB3AB0C0286800 /* Sources */,
+				018EFE0EC3C65F37A240DF6490001C05 /* Frameworks */,
+				AF93E9AAABE0B10F0C8A31DAFDD07299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DF463E592C829A2624DCEE750957FDE /* PBXTargetDependency */,
+			);
+			name = "Pods-TintColorTextField_Tests";
+			productName = "Pods-TintColorTextField_Tests";
+			productReference = C2C841B8BA3BF6394D7C8EA57E3181B3 /* Pods_TintColorTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		221B9DDD3B18829A2655FD5188EEAFE6 /* TintColorTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B784C2CDA7D8075ED1C27188E8E79317 /* Build configuration list for PBXNativeTarget "TintColorTextField" */;
+			buildPhases = (
+				5CABB72DA0A558A1CDEDDDCE8F70FDBE /* Headers */,
+				4180673E8E792F095C82957E3489EEBE /* Sources */,
+				45BC77533FE3B0F468E979EB0CA99440 /* Frameworks */,
+				A44523387940A0FEA28CA391DF42F5AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TintColorTextField;
+			productName = TintColorTextField;
+			productReference = 47804592EA214967A8BE3DC60572B8FF /* TintColorTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A8E96DA0EB4E01E9DAE34C53B44128F /* Pods-TintColorTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6420325B4E3BDD06938CED085E8C3BB /* Build configuration list for PBXNativeTarget "Pods-TintColorTextField_Example" */;
+			buildPhases = (
+				464BD701462F3F9FEA88A8C977F1734D /* Headers */,
+				A662EB9BAA9DCC90A9E9BB850C89348D /* Sources */,
+				695620D80AE5360D724BE4835F57908E /* Frameworks */,
+				DFB1B12E07F38258E125C174DE9E8100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B1E5428825799F3FFD0E130F7F335BD /* PBXTargetDependency */,
+			);
+			name = "Pods-TintColorTextField_Example";
+			productName = "Pods-TintColorTextField_Example";
+			productReference = F9B4502A04935048A516E15173FB73C0 /* Pods_TintColorTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 345C3E1DE83CB40A488DBD77CDA98420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A8E96DA0EB4E01E9DAE34C53B44128F /* Pods-TintColorTextField_Example */,
+				1745127A5AFAF34F311ED7C4CEDF4191 /* Pods-TintColorTextField_Tests */,
+				221B9DDD3B18829A2655FD5188EEAFE6 /* TintColorTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A44523387940A0FEA28CA391DF42F5AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF93E9AAABE0B10F0C8A31DAFDD07299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB1B12E07F38258E125C174DE9E8100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4180673E8E792F095C82957E3489EEBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D61CBD1BFBE3AD09DFF6A41CDCC29C04 /* ReplaceMe.swift in Sources */,
+				1AC4AC448388CBA666D9F26379EA67EE /* TintColorTextField-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6566A0C279EF30D97EFB3AB0C0286800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B11639B2B5107189E1C4125654D60D /* Pods-TintColorTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A662EB9BAA9DCC90A9E9BB850C89348D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A08A5C003D201F22E82EBA67030E9C /* Pods-TintColorTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B1E5428825799F3FFD0E130F7F335BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TintColorTextField;
+			target = 221B9DDD3B18829A2655FD5188EEAFE6 /* TintColorTextField */;
+			targetProxy = A226E4C4D9B79A59BD2630E596F9A777 /* PBXContainerItemProxy */;
+		};
+		9DF463E592C829A2624DCEE750957FDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TintColorTextField_Example";
+			target = 9A8E96DA0EB4E01E9DAE34C53B44128F /* Pods-TintColorTextField_Example */;
+			targetProxy = 2690C0C55E8F58B1BBB5AB2DBC70BD5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E4C45D763B78595D6125F7E8B04E27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B71AEC0254D7C7D83BBFD6CDDC4C010 /* Pods-TintColorTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TintColorTextField_Tests/Pods-TintColorTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintColorTextField_Tests/Pods-TintColorTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		505CC9DADA5607578321996AAAD34FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38EDF31CB11BC4EB1B360FF74AA2E913 /* Pods-TintColorTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TintColorTextField_Example/Pods-TintColorTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintColorTextField_Example/Pods-TintColorTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72454F283DD47903CD9DFC7B3C1A4703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TintColorTextField/TintColorTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TintColorTextField/TintColorTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TintColorTextField/TintColorTextField.modulemap";
+				PRODUCT_MODULE_NAME = TintColorTextField;
+				PRODUCT_NAME = TintColorTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C6EF0416C53B0784C0E5C78EA72BAE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TintColorTextField/TintColorTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TintColorTextField/TintColorTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TintColorTextField/TintColorTextField.modulemap";
+				PRODUCT_MODULE_NAME = TintColorTextField;
+				PRODUCT_NAME = TintColorTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AAD6C3FCC92C227BE49B9E73C702E5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FB17C78EEEBA042A3F874202454314 /* Pods-TintColorTextField_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TintColorTextField_Example/Pods-TintColorTextField_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintColorTextField_Example/Pods-TintColorTextField_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B66D68E4AC9439CA482298B16E977545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F52F9E6A98AA80A337E891754B49FD /* Pods-TintColorTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TintColorTextField_Tests/Pods-TintColorTextField_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TintColorTextField_Tests/Pods-TintColorTextField_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC302FBD5BD70D0AFF7ED57E3E455564 /* Build configuration list for PBXNativeTarget "Pods-TintColorTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4C45D763B78595D6125F7E8B04E27B /* Debug */,
+				B66D68E4AC9439CA482298B16E977545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B784C2CDA7D8075ED1C27188E8E79317 /* Build configuration list for PBXNativeTarget "TintColorTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72454F283DD47903CD9DFC7B3C1A4703 /* Debug */,
+				9C6EF0416C53B0784C0E5C78EA72BAE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6420325B4E3BDD06938CED085E8C3BB /* Build configuration list for PBXNativeTarget "Pods-TintColorTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505CC9DADA5607578321996AAAD34FEC /* Debug */,
+				AAD6C3FCC92C227BE49B9E73C702E5A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

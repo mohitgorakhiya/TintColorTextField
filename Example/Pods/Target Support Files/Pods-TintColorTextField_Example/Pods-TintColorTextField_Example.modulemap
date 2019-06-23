@@ -1,0 +1,6 @@
+framework module Pods_TintColorTextField_Example {
+  umbrella header "Pods-TintColorTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

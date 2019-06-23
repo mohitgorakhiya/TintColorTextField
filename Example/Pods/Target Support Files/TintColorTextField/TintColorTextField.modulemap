@@ -1,0 +1,6 @@
+framework module TintColorTextField {
+  umbrella header "TintColorTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

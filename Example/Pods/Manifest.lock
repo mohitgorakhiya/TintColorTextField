@@ -1,0 +1,16 @@
+PODS:
+  - TintColorTextField (0.1.0)
+
+DEPENDENCIES:
+  - TintColorTextField (from `../`)
+
+EXTERNAL SOURCES:
+  TintColorTextField:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TintColorTextField: 0e14f357aea54f5b28066f63fceafe2baa9e9ab6
+
+PODFILE CHECKSUM: 2c6d5d9767b19fae9246dd7213fa4564a642bced
+
+COCOAPODS: 1.7.2
