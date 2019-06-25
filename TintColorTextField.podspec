@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TintColorTextField'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.summary          = 'TintColorTextField is used to set your textfield tint color.'
   s.requires_arc = true
   s.swift_version         = '5.0'
