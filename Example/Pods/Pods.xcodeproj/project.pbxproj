@@ -10,13 +10,13 @@
 		0D6124B0CC6C159DC478B13E16B24478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1AC4AC448388CBA666D9F26379EA67EE /* TintColorTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA0910C148CB54BB52E6C5BC5B76471 /* TintColorTextField-dummy.m */; };
 		2E0C9E81141533DA570097C00C93B6AA /* TintColorTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DA4A896DD4D4FECBD981F0B2E654DA6 /* TintColorTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3BC6D422BFB8020050C9A0 /* TintColorTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3BC6D322BFB8020050C9A0 /* TintColorTextField.swift */; };
 		4F9A74E2BB8A887F965EB7A3165CAF33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		88B11639B2B5107189E1C4125654D60D /* Pods-TintColorTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF2A0D900536ECB90E06B3FE127B617 /* Pods-TintColorTextField_Tests-dummy.m */; };
 		B891E1953026C7E7F1C1BF0F2E83AFBA /* Pods-TintColorTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F38F8EB080E1ECA14C9FBB47BCAC5C8F /* Pods-TintColorTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8F99BD828CD9868353FA69F9B5D6686 /* Pods-TintColorTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD4C12AEE96D39DE294D3213808CE51 /* Pods-TintColorTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4A08A5C003D201F22E82EBA67030E9C /* Pods-TintColorTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9527D8ADFD8A715209D88E0ADD16AD0 /* Pods-TintColorTextField_Example-dummy.m */; };
 		CD87F7A34411DC2140769E1113D5828D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D61CBD1BFBE3AD09DFF6A41CDCC29C04 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8D7C6E7D21AC4A2283FF2444E0FA35 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D8D7C6E7D21AC4A2283FF2444E0FA35 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TintColorTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		119071864C3F99AAAD2D1F2568B9F2F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		14533DD084CD40AB9518D41F099274DE /* TintColorTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TintColorTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		119071864C3F99AAAD2D1F2568B9F2F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		14533DD084CD40AB9518D41F099274DE /* TintColorTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TintColorTextField.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AF2A0D900536ECB90E06B3FE127B617 /* Pods-TintColorTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintColorTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		24A1D85483FE4B46B7DBF7028111FD62 /* Pods-TintColorTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TintColorTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C867C7626D486EEC4B28EC6D7E04588 /* Pods-TintColorTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TintColorTextField_Tests.modulemap"; sourceTree = "<group>"; };
@@ -47,8 +46,9 @@
 		2DD4C12AEE96D39DE294D3213808CE51 /* Pods-TintColorTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintColorTextField_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38EDF31CB11BC4EB1B360FF74AA2E913 /* Pods-TintColorTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		42DE11E17DAADF9AA5D8FF556DDB02FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		47804592EA214967A8BE3DC60572B8FF /* TintColorTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TintColorTextField.framework; path = TintColorTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3BC6D322BFB8020050C9A0 /* TintColorTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintColorTextField.swift; sourceTree = "<group>"; };
+		42DE11E17DAADF9AA5D8FF556DDB02FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		47804592EA214967A8BE3DC60572B8FF /* TintColorTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TintColorTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE9FAD9F1F9EF389A15EFC2C48110DF /* Pods-TintColorTextField_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Example-Info.plist"; sourceTree = "<group>"; };
 		4EA0910C148CB54BB52E6C5BC5B76471 /* TintColorTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TintColorTextField-dummy.m"; sourceTree = "<group>"; };
 		554BCE0C87B9F02F1CBA64F150D7A006 /* Pods-TintColorTextField_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -58,9 +58,9 @@
 		83FB17C78EEEBA042A3F874202454314 /* Pods-TintColorTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8400B0E87E42F3D203CEB4B90A832405 /* Pods-TintColorTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8449E8EAEC52AB6B84C411D4964BFF69 /* Pods-TintColorTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TintColorTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TintColorTextField.xcconfig; sourceTree = "<group>"; };
-		C2C841B8BA3BF6394D7C8EA57E3181B3 /* Pods_TintColorTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TintColorTextField_Tests.framework; path = "Pods-TintColorTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C841B8BA3BF6394D7C8EA57E3181B3 /* Pods_TintColorTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintColorTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F52F9E6A98AA80A337E891754B49FD /* Pods-TintColorTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TintColorTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C7E4B39C050648B3BD6DE6DC5E41AAF0 /* Pods-TintColorTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TintColorTextField_Example.modulemap"; sourceTree = "<group>"; };
 		D082F53D6B3983E15FD565A415E67393 /* TintColorTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TintColorTextField-prefix.pch"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		E9527D8ADFD8A715209D88E0ADD16AD0 /* Pods-TintColorTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TintColorTextField_Example-dummy.m"; sourceTree = "<group>"; };
 		EAD0FC7CB4226BCC09C3A113E670DDDD /* Pods-TintColorTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TintColorTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F38F8EB080E1ECA14C9FBB47BCAC5C8F /* Pods-TintColorTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TintColorTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F9B4502A04935048A516E15173FB73C0 /* Pods_TintColorTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TintColorTextField_Example.framework; path = "Pods-TintColorTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B4502A04935048A516E15173FB73C0 /* Pods_TintColorTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TintColorTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +151,7 @@
 		858C1B184EA9C4934F1DA71D7560F379 /* TintColorTextField */ = {
 			isa = PBXGroup;
 			children = (
-				0D8D7C6E7D21AC4A2283FF2444E0FA35 /* ReplaceMe.swift */,
+				3B3BC6D322BFB8020050C9A0 /* TintColorTextField.swift */,
 				AED947573D1619E3E798247E8A2D4699 /* Pod */,
 				1C7E207F032538C2B2131C5C83B62029 /* Support Files */,
 			);
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					221B9DDD3B18829A2655FD5188EEAFE6 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,6 +327,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 345C3E1DE83CB40A488DBD77CDA98420 /* Products */;
@@ -364,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61CBD1BFBE3AD09DFF6A41CDCC29C04 /* ReplaceMe.swift in Sources */,
+				3B3BC6D422BFB8020050C9A0 /* TintColorTextField.swift in Sources */,
 				1AC4AC448388CBA666D9F26379EA67EE /* TintColorTextField-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -493,6 +500,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -504,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9983B3C4AD61D97939137E007A8F922 /* TintColorTextField.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -619,8 +628,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
